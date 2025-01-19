@@ -7,6 +7,15 @@
     "wdth" 100;
 }
 
+/* header */
+
+.header{
+
+    background-image: url('../images/developer.png'), url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+
 /* shared style */
 .text-primary{
     color: #FD6E0A;
@@ -46,9 +55,7 @@ nav ul {
 
 nav ul li {
     list-style: none;
-    margin-right: 46px;
-    
-    
+    margin-right: 46px;   
 }
 
 nav li a {
@@ -57,12 +64,10 @@ nav li a {
 
 /* Banner styles */
 
-
 .banner{
     display: flex;
     justify-content: space-between;
     margin: 0 35px 0 200px;
-
 }
 
 .banner-content{
@@ -79,6 +84,10 @@ nav li a {
     font-weight: bold;   
     font-size: 85px;
     color: #181818;
+}
+
+.banner-button{
+    border: #FD6E0A;
 }
 
 .content-description{ 
