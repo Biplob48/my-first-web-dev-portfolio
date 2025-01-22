@@ -171,6 +171,7 @@ main section{
   font-weight: normal;
   font-size: 18px;
   margin: 30px 115px 50px;
+  opacity: 100%;
 }
 
 .skills-description{
@@ -185,3 +186,48 @@ main section{
   font-size: 35px;
 }
 
+/* resume section styles */
+
+
+.resume-section-title{
+
+  text-align: center;
+  color: green;
+  text-decoration: underline;
+}
+.resume-container{
+
+  display: flex;
+  gap: 24px;
+  margin-top: 100px;
+}
+
+.resume-column-title{
+  font-weight: bold;
+  font-size: 30px;
+  color: #474747;
+}
+
+.experience-title{
+
+  font-weight: bold;
+  font-size: 25px;
+  color: #474747;
+  margin-top: 5px;
+}
+
+.experience-subtitle{
+
+  font-weight: 600px;
+  font-size: 20px;
+  color: #757575;
+  margin-top: 5px;
+}
+
+.experience-descriptions{
+
+  font-weight: normal;
+  font-size: 16px;
+  color: #757575;
+  margin-top: 20px;
+}
