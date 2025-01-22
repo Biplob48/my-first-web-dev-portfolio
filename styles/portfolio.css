@@ -78,12 +78,6 @@ nav li a {
 
 /* Banner styles */
 
-.banner {
-  display: flex;
-  justify-content: space-between;
-  margin: 0 35px 0 200px;
-}
-
 .banner-content {
   max-width: 585px;
 }
@@ -190,16 +184,16 @@ main section{
 
 
 .resume-section-title{
-
-  text-align: center;
   color: green;
+  margin-bottom: 50px;
   text-decoration: underline;
+  font-weight: bold;
+  font-size: 35px;
 }
-.resume-container{
 
+.resume-container{
   display: flex;
-  gap: 24px;
-  margin-top: 100px;
+  gap: 30px;
 }
 
 .resume-column-title{
@@ -209,25 +203,34 @@ main section{
 }
 
 .experience-title{
-
   font-weight: bold;
   font-size: 25px;
   color: #474747;
-  margin-top: 5px;
+  margin-bottom: 0px;
 }
 
 .experience-subtitle{
-
   font-weight: 600px;
   font-size: 20px;
   color: #757575;
-  margin-top: 5px;
+  margin-bottom: 20px;
 }
 
 .experience-descriptions{
-
   font-weight: normal;
   font-size: 16px;
   color: #757575;
-  margin-top: 20px;
+  margin-top: 15px;
+}
+
+.resume hr{
+  margin: 30px 0px;
+}
+
+/* resume section button */
+
+.resume-download-cv{
+
+  margin-top: 50px;
+  
 }
