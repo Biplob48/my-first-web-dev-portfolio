@@ -157,8 +157,6 @@ main section{
 
 /* second section- what i do */
 
-/* skills section styles */
-
 .skills-container{
 
   display: flex;
@@ -192,7 +190,6 @@ main section{
 
 /* resume section styles */
 
-
 .resume-section-title{
   color: green;
   margin-bottom: 50px;
@@ -212,7 +209,7 @@ main section{
   color: #474747;
 }
 
-.experience-title{
+.experience-title {
   font-weight: bold;
   font-size: 25px;
   color: #474747;
@@ -233,7 +230,7 @@ main section{
   margin-top: 15px;
 }
 
-.resume hr{
+.resume hr {
   margin: 30px 0px;
 }
 
@@ -245,24 +242,40 @@ main section{
 /* footer styles */
 
 footer{
-
   display: flex;
   padding: 130px 230px;
-  gap: 120px;
- 
+  gap: 115px;
 }
 
-  footer input[type="text"], footer input[type="email"], footer textarea {
-    width: 460px;
-    height: 65px;
-    border-radius:5px;
-    margin-bottom: 24px;
-    background-color: white;
-    border:none;
-    padding: 10px 20px;
-  }
-  
-  footer textarea{
-    height: 180px;
-    color: #757575; 
+.footer-column{
+  width: 50%;
+}
+
+.footer-section-title{
+  font-size: 35px;
+  font-weight: bold;
+}
+
+footer input[type="text"], footer input[type="text"]{
+  display: block;
+  height: 65px;
+  border-radius: 5px;
+  background-color: white;
+  color: #757575;
+  width: 100%;
+  margin-bottom: 24px;
+  border: none;
+  padding: 18px 0 18px 30px;
+  font-size: 18px;
+}
+
+textarea{
+  background-color: white;
+  border-radius: 5px;
+  height: 180px;
+  width: 100%;
+  margin-bottom: 24px;
+  border: none;
+  padding: 18px 0 18px 30px;
+  font-size: 18px;
 }
