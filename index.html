@@ -11,15 +11,23 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles/portfolio.css" />
+    <script src="https://kit.fontawesome.com/9fc1781a76.js" crossorigin="anonymous"></script>
   </head>
   <body class="open-sans-normal">
     <header class="header secondary-bg">
       <nav>
         <h3 class="nav-title">Ma<span class="text-primary">r</span>y</h3>
         <ul>
-          <li><a class="nav-port-blog" href="https://mattfarley.ca/">Portfolio</a></li>
-          <li><a class="nav-port-blog" href="https://freefrontend.com/tailwind-code-examples/">Blog</a></li>
-
+          <li>
+            <a class="nav-port-blog" href="https://mattfarley.ca/">Portfolio</a>
+          </li>
+          <li>
+            <a
+              class="nav-port-blog"
+              href="https://freefrontend.com/tailwind-code-examples/"
+              >Blog</a
+            >
+          </li>
           <li>
             <a href=""><button class="btn-primary">Hire Me</button></a>
           </li>
@@ -33,9 +41,11 @@
             Shot what able cold new see hold.Friendly as an betrayed formerly
             he. Morning because as to society behaved moments.
           </p>
-          <button class="btn-primary">Download CV</button>
-          <button class="banner-button secondary-bg">Contact</button>
+          <div class="header-btn">
+            <button class="btn-primary"><i class="fa-solid fa-download"></i> Download CV </button>
+          <button class="banner-button secondary-bg"><i class="fa-solid fa-phone"></i> Contact</button>
           </div>
+        </div>
         <img
           class="banner-profile-pic"
           src="images/hardy.png"
@@ -45,7 +55,6 @@
         />
       </div>
     </header>
-
     <main>
       <!-- first section -->
 
@@ -105,7 +114,7 @@
           </div>
           <div class="skills">
             <a href="https://legacy.reactjs.org/">
-              <img src="images/icons/react.png" alt="react logo">
+              <img src="images/icons/react.png" alt="react logo" />
             </a>
             <h3 class="skills-title">React</h3>
             <p class="skills-description">
@@ -221,7 +230,7 @@
           </div>
         </div>
         <div class="resume-download-btn">
-          <button class="btn-primary">Download CV</button>
+          <button class="btn-primary"><i class="fa-solid fa-download"></i> Download CV</button>
         </div>
       </section>
     </main>

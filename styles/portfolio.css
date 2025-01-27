@@ -42,6 +42,7 @@ nav {
 .nav-port-blog{
   font-weight: bold;
   color: darkgreen;
+  font-size: 20px;
 }
 .btn-primary {
   color: #ffffff;
@@ -109,7 +110,7 @@ nav li a {
   font-weight: bold;
   border-radius: 5px;
   color: #FD6E0A;
-  padding: 18px 23px 18px 58px;
+  padding: 18px 23px;
   margin-left: 30px;
   border-color: rgba(253, 110, 10, 1);
   border-style: ;
@@ -117,6 +118,9 @@ nav li a {
   height: 65px;
 }
 
+.header-btn{
+  display: flex;
+}
 .content-description {
   font-size: 18px;
 }
