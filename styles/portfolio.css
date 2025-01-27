@@ -54,6 +54,24 @@ nav {
   border: none;
   width: 200px;
   height: 65px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-primary::after{
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+  background-image: linear-gradient(to bottom right, darkred,#fd6e0a);
+  z-index: -1;
+}
+
+.btn-primary:hover{
+  z-index: 0;
 }
 
 .nav-title {
@@ -253,8 +271,12 @@ main section{
 }
 
 .resume-download-btn{
-  text-align: center;
   margin-top: 50px;
+  text-align: center;
+}
+
+.download -cv{
+  text-align: center;
 }
 
 /* footer styles */
