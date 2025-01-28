@@ -14,6 +14,8 @@
   background-position: center left, bottom right;
 }
 
+
+
 /* shared style */
 
 .secondary-bg {
@@ -79,6 +81,7 @@ nav {
   font-weight: 800;
   font-size: 45px;
 }
+
 
 nav ul {
   display: flex;
@@ -163,6 +166,10 @@ nav li a {
 
 .banner-profile-pic{
   width: 580px;
+}
+
+.banner-button>a {
+  text-decoration: none;
 }
 
 /* main styles */
@@ -289,6 +296,7 @@ main section{
 
 .resume-download-btn{
   margin-top: 50px;
+  margin-left: 500px;    
 }
 
 
