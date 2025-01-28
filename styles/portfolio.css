@@ -44,12 +44,13 @@ nav {
   color: darkgreen;
   font-size: 20px;
 }
+
 .btn-primary {
   color: #ffffff;
   font-weight: bold;
   font-size: 20px;
   background-color: #fd6e0a;
-  border-radius: 5px;
+  border-radius: 1000px;
   padding: 18px 35px;
   border: none;
   width: 200px;
@@ -60,13 +61,13 @@ nav {
   align-items: center;
 }
 
-.btn-primary::after{
+.btn-primary::after {
   content: '';
   position: absolute;
   height: 100%;
   width: 100%;
-  border-radius: 5px;
-  background-image: linear-gradient(to bottom right, darkred,#fd6e0a);
+  border-radius: 1000px;
+  background-image: linear-gradient(to bottom right, darkgreen,#fd6e0a);
   z-index: -1;
 }
 
@@ -126,14 +127,31 @@ nav li a {
 .banner-button {
   font-size: 20px;
   font-weight: bold;
-  border-radius: 5px;
+  border-radius: 1000px;
   color: #FD6E0A;
   padding: 18px 23px;
   margin-left: 30px;
   border-color: rgba(253, 110, 10, 1);
-  border-style: ;
   width: 160px;
   height: 65px;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.banner-button::after {
+  content: '';
+  position: absolute;
+  border-radius: 1000px;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to bottom right, darkgreen, yellow);
+  z-index: -1;
+}
+
+.banner-button:hover{
+  z-index: 0;
 }
 
 .header-btn{
@@ -187,8 +205,7 @@ main section{
 }
 
 .item-description{
-
-    font-weight: bold;
+  font-weight: bold;
 }
 
 /* second section- what i do */
@@ -272,12 +289,8 @@ main section{
 
 .resume-download-btn{
   margin-top: 50px;
-  text-align: center;
 }
 
-.download -cv{
-  text-align: center;
-}
 
 /* footer styles */
 
