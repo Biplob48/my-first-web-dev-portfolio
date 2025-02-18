@@ -363,4 +363,8 @@ textarea{
   .resume-download-btn{
     margin-left: 200px;
   }
+
+  .About-items{
+   flex-direction: column;
+  }
 }
