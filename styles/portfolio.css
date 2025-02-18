@@ -354,4 +354,13 @@ textarea{
   .skills-container{
     flex-direction: column;
   }
+
+  .resume-container{
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .resume-download-btn{
+    margin-left: 200px;
+  }
 }
