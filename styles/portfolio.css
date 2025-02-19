@@ -349,6 +349,7 @@ textarea{
 .hide{
   display: none;
 }
+/* small devices */
 
 @media screen and (max-width:576px){
   .skills-container{
@@ -361,10 +362,23 @@ textarea{
   }
 
   .resume-download-btn{
-    margin-left: 200px;
+    margin-left: 150px;
   }
 
   .About-items{
    flex-direction: column;
+  }
+
+  footer{
+    flex-direction: column;
+    padding: 130px 20px;
+  }
+
+  .footer-column{
+    width: 100%;
+  }
+
+  form{
+    width: calc(100% - 40px);
   }
 }
